@@ -21,32 +21,33 @@
 .navbar .menusuperior {
     grid-column: 4 / 7;
     display: flex;
-    font-size: x-large;
+    font-size: 33px;
+    background-color: rgb(255, 255, 255);
 }
 
 .navbar ul li:hover {
-    border: solid 3px black;
+    border: solid 1px black;
     transform: scale(1, 1);
 }
 
 .navbar ul li {
     margin-right: 3em;
     list-style: none;
+
 }
 
 .navbar a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     cursor: pointer;
+    background-color: rgb(255, 255, 255);
 }
 
 .navbar a:hover {
-    color: rgb(189, 187, 187);
+    color: crimson;
 }
 
-.navbar .menu-bar {
-    display: none;
-}
+
 
 
 /*      INICIO     */
@@ -81,10 +82,11 @@
 
 /*      MAIN     */
 .hero {
+    display: grid;
     height: 80vh;
     background-color: beige;
-    background-size: cover;
-    display: grid;
+    background-size: relative;
+
 
 
 }
@@ -98,26 +100,28 @@
 
 }
 
-.hero .texto1 {
+.hero .textort {
     background-color: beige;
     margin-left: 50%;
     text-align: center;
     word-spacing: 5px;
     margin-top: 4%;
+    display: flex;
+    justify-content: left;
 
 
 }
 
-.hero .texto2 {
+.hero .textortt {
     background-color: beige;
-
-
+    display: flex;
+    justify-content: center;
 }
 
 .hero .info-content {
 
     color: crimson;
-    font-size: xxx-large;
+    font-size: 45px;
     text-align: center;
     align-items: center;
     background-color: beige;
@@ -127,7 +131,7 @@
 .hero .btn1 {
     text-decoration: none;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
     color: beige;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -139,6 +143,10 @@
     border-style: solid;
     border-radius: 35px;
     cursor: pointer;
+}
+
+.color_boton {
+    background-color: beige;
 }
 
 /*      footer     */
@@ -194,7 +202,7 @@ footer .datos {
     max-height: 10%;
     padding: 0 2 20px;
     margin: 7px;
-    background-color: red;
+
 }
 
 footer nav {
@@ -254,16 +262,20 @@ footer nav {
     height: 5px;
 }
 
+.figurita {
+    background-color: beige;
+}
+
 .container-img {
     width: 100%;
     max-width: 1100px;
     margin: auto;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 250px;
     grid-gap: 20px;
+
 }
 
 .box-img:hover {
@@ -423,6 +435,7 @@ footer nav {
     display: flex;
     max-width: 2100px;
     margin: auto;
+    background-color: beige;
 }
 
 .card {
@@ -606,7 +619,8 @@ footer nav {
     justify-content: center;
     align-items: center;
     padding: 20px 100px;
-    margin-top: 80px;
+
+    background-color: beige;
 }
 
 .container:after {
@@ -710,52 +724,89 @@ textarea {
     }
 }
 
-.mapa_1 {
-    margin-left: 40%;
+.mapita {
+    width: 100%;
     height: 500px;
-    width: 500px;
 
 }
 
-.footer_2 {
-    color: rgb(0, 0, 0);
-    background-color: rgb(3, 3, 3);
+.mapita1 {
+    max-width: 1400px;
+    border: solid 1px;
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-bottom: 0%;
+
+
+
 }
 
-.footer_1111 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.footer3 {
+
+    background-color: rgb(250, 246, 246);
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    justify-content: end;
+    margin-bottom: 0%;
+    border: 1px solid black;
+
+
+}
+
+.footer3 .copyright {
+    float: left;
+    width: 20%;
+    max-height: 10%;
+    padding: 8px 15px;
+    font-weight: 10px;
+
+
+}
+
+.footer3 .things {
+    margin-top: 1%;
+}
+
+.footer3 .redes-contenedor {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-right: 2%;
+
+}
+
+.footer3 .redes-contenedor ul li {
+    display: inline-block;
+    margin: 30px 20px;
+    width: 40px;
     text-align: right;
-    font-size: xx-large;
-    position: absolute;
-    right: 7%;
-    bottom: -8cm;
+}
+
+.footer3 .redes-contenedor ul li a {
+    display: inline-block;
+    padding: 0 10px;
+    color: black;
+    transition: .2s;
 
 }
 
-.footer_2222 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-    font-size: xx-large;
-    position: absolute;
-    left: 2%;
-    bottom: -32%;
+.footer3 .datos {
+    float: left;
+    width: 55%;
+    max-height: 10%;
+    padding: 0 2 20px;
+    margin: 0;
+
 }
 
-.footer_h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-    font-size: large;
-    position: absolute;
-    margin-top: 22%;
-    margin-left: 50%;
-    justify-content: center;
+.footer3 .nav {
+    float: right;
 }
 
-.hr_2 {
-    margin-top: 2%;
-    border-color: black;
-    height: 2px;
-}
 
 /*      NOSOTROS     */
 * {
@@ -810,67 +861,143 @@ textarea {
     height: 5px;
 }
 
+.papa {
+    background-color: beige;
+}
+
 .imagen_rec {
     width: 800px;
     height: 600px;
-    margin-top: 2%;
-    margin-left: 1%;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: auto;
+    float: left;
+    background-color: beige;
+
+}
+
+.texto1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27.3px;
+    letter-spacing: 1px;
+    text-align: justify-all;
+    background-color: beige;
+    color: black;
+    margin-left: 40%;
+    margin-right: 2%;
+    
+
+
+
+}
+
+.texto2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    text-align: justify-all;
+    background-color: beige;
+    color: black;
+    margin-left: 40%;
+    margin-right: 2%;
+    margin-top: 1.5%;
+
+
+
+}
+
+.texto3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    text-align: justify-all;
+    background-color: beige;
+    color: black;
+    margin-left: 40%;
+    margin-right: 2%;
+    margin-top: 1.5%;
+
+
+
+}
+.textox{
+    background-color: beige;
 }
 
 .subtitulo_2 {
+    background-color: beige;
     font-family: "Times New Roman", Times, serif;
-    font-size: 3.21rem;
+    font-size: 110px;
     font-style: italic;
-    margin-right: 5cm;
-    margin-top: 7cm;
     letter-spacing: 15px;
-    margin-bottom: 10cm;
     color: rgb(77, 76, 76);
     letter-spacing: normal;
-    float: right;
-    position: relative;
     text-align: center;
-    text-indent: 5%;
+    
+    
 }
 
 .footer_2 {
-    color: rgb(0, 0, 0);
-    background-color: rgb(3, 3, 3);
+
+    background-color: rgb(250, 246, 246);
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    justify-content: end;
+    margin-bottom: 0%;
+
+
 }
 
-.footer_p11111 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.footer_2 .copyright {
+    float: left;
+    width: 20%;
+    max-height: 10%;
+    padding: 8px 15px;
+    font-weight: 10px;
+
+
+}
+
+.footer_2 .pepito {
+    margin-bottom: 3%;
+
+}
+
+.footer_2 .redes-contenedor {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-right: 2%;
+
+}
+
+.footer_2 .redes-contenedor ul li {
+    display: inline-block;
+    margin: 30px 20px;
+    width: 40px;
     text-align: right;
-    font-size: xx-large;
-    position: absolute;
-    right: 7%;
-    bottom: -8cm;
+}
+
+.footer_2 .redes-contenedor ul li a {
+    display: inline-block;
+    padding: 0 10px;
+    color: black;
+    transition: .2s;
 
 }
 
-.footer_p22222 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-    font-size: xx-large;
-    position: absolute;
-    left: 2%;
-    bottom: -32%;
+.footer_2 .datos {
+    float: left;
+    width: 55%;
+    max-height: 10%;
+    padding: 0 2 20px;
+    margin: 0;
+
 }
 
-.footer_h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-    font-size: large;
-    position: absolute;
-    margin-top: 22%;
-    margin-left: 50%;
-    justify-content: center;
-}
-
-.hr_3 {
-    margin-top: 5%;
-    border-color: black;
-    height: 2px;
+.footer_2 .nav {
+    float: right;
 }
