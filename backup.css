@@ -5,6 +5,18 @@
     background-color: rgb(250, 246, 246);
 }
 
+
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar a:hover {
+    color: crimson;
+}
 .navbar {
     background-color: rgb(255, 254, 253);
     display: grid;
@@ -35,18 +47,6 @@
     list-style: none;
 
 }
-
-.navbar a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    background-color: rgb(255, 255, 255);
-}
-
-.navbar a:hover {
-    color: crimson;
-}
-
 
 
 
