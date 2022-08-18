@@ -1,0 +1,79 @@
+.footer {
+
+    background-color: rgb(250, 246, 246);
+    color: black;
+    text-align: center;
+    font-size: $font-size;
+    position: absolute;
+    bottom: 1;
+    width: 100%;
+    justify-content: end;
+    margin-top: 2%;
+    
+}
+
+.copyright {
+    float: left;
+    width: 20%;
+    max-height: 10%;
+    
+}
+
+.datos {
+    float: left;
+    width: 55%;
+    
+}
+
+.redes-contenedor {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-right: 2%;
+
+    & ul li {
+        display: inline-block;
+        margin: 30px 20px;
+        width: 80px;
+        text-align: right;
+    }
+
+    ul li a {
+        display: inline-block;
+        padding: 0 10px;
+        color: black;
+        transition: .2s;
+    }
+
+    nav {
+        float: right;
+    }
+}
+//servicios//
+
+.footer2 {
+
+    background-color: rgb(250, 246, 246);
+    color: black;
+    text-align: center;
+    font-size: $font-size;
+    position: absolute;
+    bottom: 1;
+    width: 100%;
+    justify-content: end;
+    
+}
+
+.footer_p11 {
+    float: left;
+    width: 20%;
+    max-height: 10%;
+    
+}
+
+.footer_p22 {
+    float: left;
+    width: 55%;
+    
+}
+
