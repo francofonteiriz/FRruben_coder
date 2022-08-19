@@ -1,11 +1,15 @@
 @import 'variables.scss';
 
+*{
+    margin: 0 ;
+}
 
 .hero {
     display: grid;
     height: 60vh;
     background-color: $backcolor;
     background-size: 100%;
+    
 }
 
 .hero .imagenfr {
@@ -15,6 +19,7 @@
     grid-column: initial;
     float: left;
     
+
 }
 
 .textort {
@@ -27,6 +32,7 @@
 
 
 }
+
 .textortt {
     background-color: $backcolor;
     display: flex;
@@ -40,7 +46,7 @@
     text-align: center;
     align-items: center;
     background-color: beige;
-    
+
 
 }
 
@@ -59,7 +65,8 @@
     border-style: solid;
     border-radius: 35px;
     cursor: pointer;
+
     .color_boton {
-    background-color: beige;
+        background-color: beige;
     }
 }

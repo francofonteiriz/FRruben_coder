@@ -3,12 +3,14 @@
     background-color: rgb(250, 246, 246);
     color: black;
     text-align: center;
-    font-size: $font-size;
+    font-size: 36px;
     position: absolute;
     bottom: 1;
     width: 100%;
     justify-content: end;
-    margin-top: 2%;
+    margin-top: 45px;
+    padding: 80px 0 40px 0 ;
+    
     
 }
 
@@ -40,7 +42,7 @@
 
     ul li a {
         display: inline-block;
-        padding: 0 10px;
+        padding: 0 20px;
         color: black;
         transition: .2s;
     }
@@ -49,7 +51,6 @@
         float: right;
     }
 }
-//servicios//
 
 .footer2 {
 
@@ -61,6 +62,8 @@
     bottom: 1;
     width: 100%;
     justify-content: end;
+    
+    padding: 20px;
     
 }
 
@@ -76,4 +79,5 @@
     width: 55%;
     
 }
+
 
