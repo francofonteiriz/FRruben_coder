@@ -1,24 +1,32 @@
 @import 'variables.scss';
 
-*{
-    margin: 0 ;
+* {
+    margin: 0;
+   
 }
 
 .hero {
+    margin-top: 1%;
     display: grid;
-    height: 60vh;
+    height: 76vh;
     background-color: $backcolor;
     background-size: 100%;
-    
+    position:relative;
+
+
 }
 
 .hero .imagenfr {
-    height: 750px;
-    width: 1300px;
+    margin-top: 2%;
+    margin-left: 1%;
+    height: 100%;
+    max-height: 700px;
+    width: 100%;
+    max-width: 1000px;
     display: grid;
     grid-column: initial;
     float: left;
-    
+
 
 }
 
@@ -26,7 +34,7 @@
     background-color: $backcolor;
     text-align: center;
     word-spacing: 5px;
-    margin-top: 4%;
+    margin-top: 6%;
     display: flex;
     justify-content: left;
 
@@ -37,6 +45,7 @@
     background-color: $backcolor;
     display: flex;
     justify-content: center;
+    margin-top: 1%;
 }
 
 .info-content {
@@ -65,8 +74,44 @@
     border-style: solid;
     border-radius: 35px;
     cursor: pointer;
+    margin-top: 20px;
 
     .color_boton {
         background-color: beige;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .textort{
+        display: none;
+        visibility: hidden;
+        
+    }
+    .textortt{
+        display: none;
+        visibility: hidden;
+        
+    }
+    .btn1{
+        display: none;
+        visibility: hidden;
+        
+    }
+}
+@media screen and (max-width: 1200px) {
+    .textort{
+        display: none;
+        visibility: hidden;
+        
+    }
+    .textortt{
+        display: none;
+        visibility: hidden;
+        
+    }
+    .btn1{
+        display: none;
+        visibility: hidden;
+        
     }
 }

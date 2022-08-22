@@ -2,6 +2,7 @@
 
 .section_1{
     background-color: $backcolor;
+    
 }
 .container-card {
     width: 100%;
@@ -70,7 +71,7 @@
     color: #fff;
 }
 
-@media only screen and (min-width:320px) and (max-width:768px) {
+@media only screen and (min-width:520px) and (max-width:968px) {
     .container-card {
         flex-wrap: wrap;
     }
