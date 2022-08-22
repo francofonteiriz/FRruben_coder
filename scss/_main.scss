@@ -2,7 +2,6 @@
 
 * {
     margin: 0;
-   
 }
 
 .hero {
@@ -11,7 +10,7 @@
     height: 76vh;
     background-color: $backcolor;
     background-size: 100%;
-    position:relative;
+    position: relative;
 
 
 }
@@ -81,37 +80,42 @@
     }
 }
 
-@media screen and (max-width: 970px) {
-    .textort{
+@media only screen and   (min-width:768px)  {
+    .textort {
         display: none;
         visibility: hidden;
-        
+
     }
-    .textortt{
+
+    .textortt {
         display: none;
         visibility: hidden;
-        
+
     }
-    .btn1{
+
+    .btn1 {
         display: none;
         visibility: hidden;
-        
+
     }
 }
+
 @media screen and (max-width: 1200px) {
-    .textort{
+    .textort {
         display: none;
         visibility: hidden;
-        
+
     }
-    .textortt{
+
+    .textortt {
         display: none;
         visibility: hidden;
-        
+
     }
-    .btn1{
+
+    .btn1 {
         display: none;
         visibility: hidden;
-        
+
     }
 }
